@@ -1,0 +1,54 @@
+<!--
+Name: Ryan Fazal
+Project: Lucky Sevens
+Date Created: 02/07/2020
+-->
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Lucky Sevens</title>
+    <script type="text/javascript" src="luckysevens.js"></script>
+</head>
+
+<body>
+        <h1>Lucky Sevens</h1>
+
+        <div>
+        <form name="luckySevensForm" onsubmit="return luckySevens()">
+            <div>
+                <label for="startingBet"><strong>Starting Bet:</strong></label>
+                <input type="number" id="startingBet" value="0">
+            </div>
+            <br>
+            <button type="submit" id="submitButton">Play</button>
+        </form>
+    </div>
+      <hr />
+        <h2>Results</h2>
+        <div>
+            <table >
+                <thead>
+                    <td>Starting Bet</td>
+                    <td id="starting_bet"></td>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Total Rolls Before Going Broke</td>
+                        <td id="total_rolls_before_going_broke"></td>
+                    </tr>
+                    <tr>
+                        <td>Highest Amount Won</td>
+                        <td id="highest_amount_won"></td>
+                    </tr>
+                    <tr>
+                        <td>Roll Count at Highest Amount Won</td>
+                        <td id="rolls_count_at_highest_amount_won"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+</body>
+</html>
