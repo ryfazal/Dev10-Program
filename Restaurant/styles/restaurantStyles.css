@@ -1,0 +1,141 @@
+/*
+Creator: Ryan Fazal
+Date Created: 02/07/2020
+Project Name: Restaurant
+*/
+
+html, body {
+    height: 100%;
+}
+
+main {
+    margin-bottom: 6rem;
+}
+
+body {
+    background-position: center;
+    background-size: 1920px;
+    background-repeat: repeat-y;
+}
+
+header {
+    background-color: white;
+    box-shadow: 0 1px 10px -2px #949494;
+    position: relative;
+    z-index: 999;
+}
+
+header h1 {
+    font-family: 'Madelyn', cursive;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #049FD6;
+}
+
+.nav-pills .nav-link {
+    border: 1px solid #05B7F6;
+    color: lightblue;
+    min-width: 7em;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: #049FD6;
+}
+
+footer .navbar
+{
+    min-height: 3rem;
+}
+
+footer .navbar-dark .navbar-text {
+    font-size: 0.75em;
+}
+
+footer .navbar-dark .navbar-text a:focus, footer .navbar-dark .navbar-text a:hover {
+    text-decoration: none;
+    color: #00CCFF;
+}
+
+.carousel {
+    background-color: #05B7F6;
+    color: #FFFFFF;
+    min-height: 720px;
+}
+
+.carouselSide {
+    background-position: right;
+    min-height: 720px;
+}
+
+.jumbotron {
+    padding: 0;
+    margin-bottom: 0;
+    border-radius: 0 0 0.3rem 0.3rem;
+    background-color: #FFFFFF;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.jumbotron .row div {
+    border-bottom: 1px solid gray;
+    padding: 0.5em;
+}
+
+#jumboColBreak {
+    padding: 0;
+    border: none;
+}
+
+.jumbotron .row > div:nth-child(1) {
+    border-radius: 0 0 0 0.3rem;
+}
+
+.jumbotron .row > div:nth-last-child(1) {
+    border-radius: 0 0 0.3rem 0;
+}
+
+.jumbotron p {
+    margin: 0;
+}
+
+.jumbotron .display-4 {
+    font-size: 2.5em;
+}
+
+#about {
+    background-color: #3B444C;
+    color: #FFFFFF;
+    font-family: 'Gagalin', serif;
+    font-size: 1.00em;
+}
+
+/* Menu Page */
+.menuContainer {
+    background-color: #FFFFFF;
+    font-family: 'Nickainley', serif;
+}
+
+.menuItemTitle {
+    font-weight: bold;
+}
+
+#menuAbout {
+    font-size: 1.00em;
+    font-style: italic;
+}
+
+/* Contact Us Page */
+.contactContainer {
+    background-color: #FFFFFF;
+}
+
+.btn-theme {
+    background-color: #FF5C57;
+    border: 1px solid #CED4dA;
+}
+
+#results {
+    color: #FA0800;
+    font-weight: bold;
+}
